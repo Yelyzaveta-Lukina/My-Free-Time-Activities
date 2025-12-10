@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Free Time Activities</string>
+    <string name="hobby_name">Hobby Name</string>
+    <string name="hobby_description">Hobby Description</string>
+    <string name="see_my_hobbies">See My Hobbies</string>
+    <string name="main_page_pic">main_page_pic</string>
+    <string name="hobby_id">Hobby ID</string>
+    <string name="list_page_text">In my free time, I enjoy doing different fun activities. Today, I’d love to share some of them with you! Check the list below.</string>
+    <string name="hobby_related_image">Hobby related image</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="back_to_list">Back to List</string>
+
+</resources>

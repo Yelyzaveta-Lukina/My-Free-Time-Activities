@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MyFreeTimeActivities" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/vibrant_purple</item>
+        <item name="toolbarStyle">@style/CustomToolbar</item>
+    </style>
+
+    <style name="Theme.MyFreeTimeActivities" parent="Base.Theme.MyFreeTimeActivities" />
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/list_page"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/hobby_list_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="120dp"
+        android:text="@string/list_page_text"
+        android:textAlignment="center"
+        android:textColor="#333"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/hobby_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="2dp" />
+
+    <Button
+        android:id="@+id/back_to_main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_main"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="130dp" />
+
+</LinearLayout>
